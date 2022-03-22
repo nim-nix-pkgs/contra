@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-contra-master.flake = false;
+  inputs.src-contra-master.ref   = "refs/heads/master";
   inputs.src-contra-master.owner = "juancarlospaco";
-  inputs.src-contra-master.ref   = "master";
   inputs.src-contra-master.repo  = "nim-contra";
   inputs.src-contra-master.type  = "github";
   
