@@ -11,7 +11,6 @@
   inputs.src-contra-master.ref   = "refs/heads/master";
   inputs.src-contra-master.owner = "juancarlospaco";
   inputs.src-contra-master.repo  = "nim-contra";
-  inputs.src-contra-master.dir   = "";
   inputs.src-contra-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
